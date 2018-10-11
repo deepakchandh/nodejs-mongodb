@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <title>My app</title>
       <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="/public/stylesheets/style.css">
+      <link rel='stylesheet' href='/stylesheets/style.css' />
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
 </head>
 <body>
     <style>
-        button {
-    color: #444444;
-    background: #F3F3F3;
-    border: 1px #DADADA solid;
-    padding: 5px 10px;
-    border-radius: 2px;
-    font-weight: bold;
-    font-size: 9pt;
-    outline: none;
-}
+        
     </style>
 
   <center>  
 <h1  style="color: aqua">May Node and Express be with you</h1>
 <form action="/quotes" method="POST">
     
-    <label>FirstName</label>    <input type="text" placeholder="first name" name="fname"><br><br>
-     <label>LastName</label>  <input type="text" placeholder="last name" name="lname"><br>
+    <label>First Name</label>    <input type="text" placeholder="first name" name="fname"><br><br>
+     <label>Last Name</label>  <input type="text" placeholder="last name" name="lname"><br>
     <br>
     <button  type="submit">Submit</button>
 </form>
