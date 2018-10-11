@@ -22,6 +22,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Routes to other sites 
 app.use('/', index);
 app.use('/users', users);
 
@@ -43,4 +44,5 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+//Route Definition 
 module.exports = app;
