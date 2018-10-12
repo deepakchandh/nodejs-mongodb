@@ -6,3 +6,23 @@ body {
 a {
   color: #00B7FF;
 }
+
+button {
+  color: #444444;
+  background: #F3F3F3;
+  border: 1px #DADADA solid;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 9pt;
+  outline: none;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+}
+label {
+  padding: 10px;
+}
